@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.df{
+    display: flex;
+}
+.fdr{
+    flex-direction: row;
+}
+.fdc{
+    flex-direction: column;
+}
+.jcc{
+    justify-content: center;
+}
+.aic{
+    align-items: center;
+}
+.ttu{
+    text-transform: uppercase;
+}
+.fss{
+    font-size: small;
+}
+.tac{
+    text-align: center;
+}
+.fww{
+    flex-wrap: wrap;
+}
+.jcsa{
+    justify-content: space-around;
+}
+
+ /* First */
+.first{
+     width: 100%;
+     height: 39rem;
+     /* border: 1px solid black; */
+     background: linear-gradient(rgba(0 0 0 /70%), rgb(0 0 0 /70%)), url("images/bg2.jpg");
+     background-size: cover;
+     background-attachment: fixed;
+}
+.top{
+    /* border: 1px solid black; */
+    border-bottom:0.3px solid grey;
+    height: 5.5rem;
+}
+.logo{
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.navbar{
+    width: 80%;
+    /* border: 1px solid black; */
+    border-left:1px solid white ;
+    height: 3rem;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 15px 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: grey;
+    transition: 1s;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color:white;
+    width: 160px;
+    padding: 5px 2px;
+}
+  .dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: underline;
+}
+.mid{
+    width: 100%;
+    height: 28rem;
+}
+/* Second */
+.second{
+    width: 100%;
+    height:64.3rem;
+    background-image: url("images/rough.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.top_2{
+    width: 100%;
+    height: 16rem;
+    /* border: 1px solid black; */
+}
+.top_2 h1{
+    font-size: xx-large;
+    color: green;
+}
+.left{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 39rem;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 35rem;
+    padding: 10px 35px;
+}
+.brdr{
+    width: 10%;
+    border-bottom: 4px solid red;
+}
+.right p{
+    font-size: 15px;
+}
+#small{
+    font-size: 12px;
+}
+.btn{
+    border: none;
+}
+.btn input{
+    padding: 3px 6px;
+    font-size: 12px;
+    border: 4px solid green;
+}
+.btn input:hover{
+    background-color: green;
+    color: white;
+}
+/* Third */
+.third,.fourth{
+    width: 100%;
+    height: 39rem;
+    /* border: 1px solid black; */
+    background-attachment: fixed;
+}
+.left_3{
+    width: 70%;
+    height: 39rem;
+    /* border: 1px solid black; */
+    background-image: url("Images/zingerburger.jpg");
+    background-size:cover ;
+}
+.right_3{
+    width: 30%;
+    height: 39rem;
+    /* border: 1px solid black; */
+    background-image: url("Images/rough.jpg");
+}
+.card{
+    width: 49%;
+    height: 34rem;
+    /* border: 1px solid black; */
+    transform: translateX(167%);
+    margin-top: 4rem;
+    background-color: white;
+}
+.border{
+    width: 90%;
+    height: 32rem;
+    border: 9px solid green;
+    padding: 0px 15px;
+}
+h1{
+    color: Green;
+}
+/* Fourth */
+.left_4{
+    width: 30%;
+    height: 39rem;
+    /* border: 1px solid black; */
+    background-image: url("images/rough.jpg");
+    background-attachment: fixed;
+}
+.right_4{
+    width: 70%;
+    height: 39rem;
+    /* border: 1px solid black; */
+    background-image: url("Images/bbq.jpeg");
+    background-size:cover ;
+    background-attachment: fixed;
+}
+.card_2{
+    width: 110%;
+    height: 34rem;
+    /* border: 1px solid black; */
+    transform: translateX(30%);
+    margin-top: 4rem;
+    background-color: white;
+}
+/* Fifth */
+.left_5{
+    width: 70%;
+    height: 39rem;
+    /* border: 1px solid black; */
+    background-image: url("Images/chi.jpg");
+    background-size:cover ;
+    background-attachment: fixed;
+}
+/* Sixth */
+.right_6{
+    width: 70%;
+    height: 39rem;
+    /* border: 1px solid black; */
+    background-image: url("Images/contii.jpg");
+    background-size:cover ;
+    background-attachment: fixed;
+}
+/* Sevent */
+.left_7{
+    width: 70%;
+    height: 39rem;
+    /* border: 1px solid black; */
+    background-image: url("Images/handi.jpg");
+    background-size:cover ;
+    background-attachment: fixed;
+}
+/* Ninth */
+.ninth{
+    width: 100%;
+    height: 91rem;
+    background-image: url("images/rough.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    width: 100%;
+    height: 17rem;
+    /* border: 1px solid black; */
+}
+.heading h1{
+    font-size: xxx-large;
+}
+.gallery{
+    width: 100%;
+    height: 37rem;
+    /* border: 1px solid black; */
+    padding: 20px 50px;
+}
+.pictures{
+    transition: 0.4s all ease-out;
+    overflow: hidden;
+}
+.pictures img:hover{
+    transform: scale(1.1);
+    transition: 0.4s all ease-out;
+}
+.btnn{
+    width: 100%;
+    height: 15rem;
+    /* border: 1px solid black; */
+}
+.reviews{
+    width: 100%;
+    height: 20rem;
+}
+.pictures{
+    width: 18%;
+    height: 15rem;
+    /* border: 1px solid black; */
+}
+.pictures img{
+    width: 100%;
+    height: 15rem;
+}
+.com_one img{
+    width: 80%;
+    border-radius: 150px;
+}
+.com_one{
+    width: 25%;
+}
+.com_three{
+    margin-left: -17%;
+}
+.ic{
+    font-size: 30px;
+}
+/* Tenth */
+.tenth{
+    width: 100%;
+    height: 16rem;
+    background-color: #141413d8;
+}
+.tenth a,p{
+    color: white;
+    text-decoration: none;
+}
+.ninth p,.second p{
+    color: black;
+}
+.card p{
+    color: black;
+}
+.card_2 p{
+    color: black;
+}
